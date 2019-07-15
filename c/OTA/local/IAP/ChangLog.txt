@@ -1,0 +1,4 @@
+2019-04-29 Roc
+
+1. 本changlog.txt文件路径是UDFRM_6.0\Templat\UDFRM-D-407\Led下面。
+2. 这是LED的驱动库，会在UDFRM_6.0\Templat\UDFRM-D-407\Release\Lib下面生成UDFRM-D-LED-407.lib库。
