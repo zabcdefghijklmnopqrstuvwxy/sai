@@ -1,0 +1,13 @@
+.\obj\iap.o: ..\Src\iap.c
+.\obj\iap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\iap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\iap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\iap.o: ..\Inc\iap.h
+.\obj\iap.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h
+.\obj\iap.o: .\RTE\_UDFRM-A-IAP-103\RTE_Components.h
+.\obj\iap.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h
+.\obj\iap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\iap.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h
+.\obj\iap.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\obj\iap.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\obj\iap.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h

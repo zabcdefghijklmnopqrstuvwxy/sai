@@ -1,0 +1,7 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\Inc -I ..\MDK-ARM -I ../../Release/Inc -I ..\..\..\UDFRM-HAL-103\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\..\UDFRM-HAL-103\Release\Inc -I ..\..\..\UDFRM-HAL-103\Release\Inc\Legacy -I ..\..\..\UDFRM-HAL-103\Drivers\CMSIS\Include
+-I.\RTE\Device\STM32F103VE
+-I.\RTE\_UDFRM-A-IAP-103
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE -DUSE_F1XX_HAL
+-o .\obj\iap.o --depend .\obj\iap.d "..\Src\iap.c"
