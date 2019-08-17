@@ -6,17 +6,20 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
 import json
+from scrapy.exporters import JsonLinesItemExporter
 
 class FmlPipeline(object):
+    def __init__(self):
+        self.fp = open("qsbk.json","wb")
+        self.exporter = JsonLinesItemExporter(self.fp,ensure_ascii=False,encoding='utf-8')
+
     def open_spider(self,spider):
         print("$"*120)
-        self.fp = open("qsbk.json","w",encoding="utf-8")
         print("开始抓取爬虫文件")
         print("$"*120)
 
     def process_item(self, item, spider):
-        item_json = json.dumps(dict(item),ensure_ascii=False)
-        self.fp.write(item_json+'\n')
+        self.exporter.export_item(item)
         return item
     
     def close_spider(self,spider):
