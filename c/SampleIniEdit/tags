@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS= -w -g -O0$/;"	m
+CTRL_CR	ini_rw.c	13;"	d	file:
+CTRL_LF	ini_rw.c	12;"	d	file:
+ELineType	ini_rw.c	/^} ELineType ;$/;"	t	typeref:enum:_ELineType_	file:
+ERR_ARRAY_	ini_rw.h	19;"	d
+ERR_FILENAME_TOOLONG	ini_rw.h	15;"	d
+ERR_INVALID	ini_rw.h	12;"	d
+ERR_LOOKUP_KEY_FAILED	ini_rw.h	18;"	d
+ERR_LOOKUP_SECT_FAILED	ini_rw.h	17;"	d
+ERR_MALLOC_FAILED	ini_rw.h	14;"	d
+ERR_OK	ini_rw.h	11;"	d
+ERR_OPENFILE_FAILED	ini_rw.h	13;"	d
+ERR_SETVALUE_ILLEGAL	ini_rw.h	16;"	d
+INCLUDE	Makefile	/^INCLUDE= -I .$/;"	m
+INI_FindSection	ini_rw.c	/^static int32_t INI_FindSection(const int8_t *section, int8_t **sect1, int8_t **sect2, int8_t **cont1, int8_t **cont2, int8_t **nextsect)$/;"	f	file:
+INI_FreeFile	ini_rw.c	/^void INI_FreeFile(void)$/;"	f
+INI_GetEnum	ini_rw.c	/^ini_err_t INI_GetEnum(const int8_t *section, const int8_t *key, int32_t *value,int32_t *len,int32_t maxlen)$/;"	f
+INI_GetFloat	ini_rw.c	/^ini_err_t INI_GetFloat(const int8_t *section, const int8_t *key, float *value)$/;"	f
+INI_GetInt	ini_rw.c	/^ini_err_t INI_GetInt(const int8_t *section, const int8_t *key, int32_t *value)$/;"	f
+INI_GetKeyValue	ini_rw.c	/^static void INI_GetKeyValue(int8_t *content, int8_t **key, int8_t **value)$/;"	f	file:
+INI_GetLine	ini_rw.c	/^static int32_t INI_GetLine(int8_t *buf, int32_t buflen, int8_t *content, int8_t **rem1, int8_t **rem2, int8_t **nextline)$/;"	f	file:
+INI_GetString	ini_rw.c	/^ini_err_t INI_GetString(const int8_t *section, const int8_t *key, int8_t *value, int32_t maxlen)$/;"	f
+INI_GetValue	ini_rw.c	/^static ini_err_t INI_GetValue(const int8_t *section, const int8_t *key, int8_t *value, int32_t maxlen)$/;"	f	file:
+INI_LoadFile	ini_rw.c	/^ini_err_t INI_LoadFile(const int8_t *filename)$/;"	f
+INI_ResetEnum	ini_rw.c	/^ini_err_t INI_ResetEnum(const int8_t *section,const int8_t *key)$/;"	f
+INI_ResetFloat	ini_rw.c	/^ini_err_t INI_ResetFloat(const int8_t *section,const int8_t *key)$/;"	f
+INI_ResetInt	ini_rw.c	/^ini_err_t INI_ResetInt(const int8_t *section,const int8_t *key)$/;"	f
+INI_ResetString	ini_rw.c	/^ini_err_t INI_ResetString(const int8_t *section,const int8_t *key)$/;"	f
+INI_SetData	ini_rw.c	/^ini_err_t INI_SetData(const int8_t *section, const int8_t *key, const int8_t *value)$/;"	f
+INI_SetEnum	ini_rw.c	/^ini_err_t INI_SetEnum(const int8_t *section, const int8_t *key, int32_t *value,int32_t len)$/;"	f
+INI_SetFloat	ini_rw.c	/^ini_err_t INI_SetFloat(const int8_t *section, const int8_t *key, float value)$/;"	f
+INI_SetInt	ini_rw.c	/^ini_err_t INI_SetInt(const int8_t *section, const int8_t *key, int32_t value, int32_t base)$/;"	f
+INI_SetString	ini_rw.c	/^ini_err_t INI_SetString(const int8_t *section, const int8_t *key, const int8_t *value)$/;"	f
+LD	Makefile	/^LD=gcc$/;"	m
+LINE_EMPTY	ini_rw.c	/^	LINE_EMPTY,		\/**< ¿Õ°×ÐÐ»ò×¢ÊÍÐÐ *\/$/;"	e	enum:_ELineType_	file:
+LINE_ERROR	ini_rw.c	/^	LINE_ERROR,		\/**< ´íÎóÐÐ *\/$/;"	e	enum:_ELineType_	file:
+LINE_IDLE	ini_rw.c	/^	LINE_IDLE,		\/**< Î´´¦ÀíÐÐ *\/$/;"	e	enum:_ELineType_	file:
+LINE_SECTION	ini_rw.c	/^	LINE_SECTION,	\/**< ½Ú¶¨ÒåÐÐ *\/$/;"	e	enum:_ELineType_	file:
+LINE_VALUE	ini_rw.c	/^	LINE_VALUE		\/**< Öµ¶¨ÒåÐÐ *\/$/;"	e	enum:_ELineType_	file:
+OBJS	Makefile	/^OBJS=$(patsubst %c,%o,$(SRCS))$/;"	m
+SIZE_FILENAME	ini_rw.c	9;"	d	file:
+SIZE_LINE	ini_rw.c	8;"	d	file:
+SRCS	Makefile	/^SRCS=$(wildcard *.c)$/;"	m
+StrHtStrip	ini_rw.c	/^static int8_t *StrHtStrip(int8_t *s)$/;"	f	file:
+StrStrip	ini_rw.c	/^static int8_t *StrStrip(int8_t *s)$/;"	f	file:
+StriCmp	ini_rw.c	/^static int32_t StriCmp(const int8_t *s1, const int8_t *s2)$/;"	f	file:
+TARGET	Makefile	/^TARGET=ini$/;"	m
+_ELineType_	ini_rw.c	/^typedef enum _ELineType_ {$/;"	g	file:
+_INI_RW_H_	ini_rw.h	2;"	d
+gFilename	ini_rw.c	/^static int8_t gFilename[SIZE_FILENAME];   \/* ÎÄ¼þÃûÊý×é *\/$/;"	v	file:
+gcBuffer	ini_rw.c	/^static int8_t *gcBuffer;                   \/* ¶ÁÈ¡ÎÄ¼þ»º´æÖ¸Õë *\/$/;"	v	file:
+gnBuflen	ini_rw.c	/^static int32_t gnBuflen;			\/* ¶ÁÈ¡ÎÄ¼þ³¤¶È *\/ $/;"	v	file:
+gnRstFloatFlag	ini_rw.c	/^static int32_t gnRstFloatFlag;        \/* ¸¡µãÊý¸´Î»±ê¼Ç *\/$/;"	v	file:
+gnRstIntFlag	ini_rw.c	/^static int32_t gnRstIntFlag;          \/* ÕûÐÎ¸´Î»±ê¼Ç *\/$/;"	v	file:
+gnRstStrFlag	ini_rw.c	/^static int32_t gnRstStrFlag;		\/* ×Ö·û´®¸´Î»±ê¼Ç *\/$/;"	v	file:
+ini_err_t	ini_rw.h	/^typedef 	int 		ini_err_t;          \/* inié”™è¯¯ç æ•°æ®ç±»åž‹å®šä¹‰ *\/$/;"	t
+main	test.c	/^int main(void)$/;"	f
+min	ini_rw.c	10;"	d	file:
